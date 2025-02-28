@@ -12,6 +12,8 @@ else:
 
 #calculos de desconto
 valor_sem_desconto = quantidade * produto
+
+#lembrando que 1- desconto esta em decimal
 valor_com_desconto = quantidade * (1 - desconto)
 valor_total = quantidade * valor_com_desconto
 valor_desconto = quantidade * produto * desconto
