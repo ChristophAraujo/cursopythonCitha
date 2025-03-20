@@ -1,0 +1,39 @@
+📌 Lista de Exercícios – Automação com Análise de Dados (Python)
+✅ 1. Leitura e análise de CSV
+Ler um arquivo vendas.csv com colunas: Produto, Quantidade, Preço.
+Calcular o total vendido por produto.
+Gerar um relatório com o produto mais vendido.
+✅ 2. Enviar notificação com resumo de vendas (usando plyer)
+Após análise do CSV, enviar uma notificação com:
+Produto mais vendido
+Total geral de vendas
+✅ 3. Automatizar relatório em Excel (usando pandas + openpyxl)
+Ler vendas.csv, agrupar por produto e salvar como relatorio.xlsx com uma aba para resumo.
+✅ 4. Enviar e-mail automático com o relatório anexado (usando smtplib)
+Criar um script que:
+Analisa os dados
+Cria o relatório
+Envia por e-mail com o relatório em anexo
+✅ 5. Gráficos automáticos (usando matplotlib ou seaborn)
+Gerar gráfico de barras com produtos e quantidade vendida.
+Salvar como imagem grafico.png para usar em relatório.
+✅ 6. Agendar execução automática (usando schedule ou task scheduler)
+Criar uma tarefa automática que execute o script de análise todo dia às 9h.
+✅ 7. Análise de indicadores de desempenho (KPI)
+Calcular:
+Ticket médio
+Produtos com margem de lucro baixa
+Top 3 produtos mais lucrativos
+✅ 8. Dashboard simples com Tkinter
+Criar uma janela com:
+Botão para carregar CSV
+Texto com resumo dos dados
+Gráfico embutido (opcional com matplotlib no Tkinter)
+✅ 9. Atualização automática de banco de dados SQLite
+Ler os dados do CSV e alimentar uma base vendas.db com os registros.
+Consultar os dados com pandas.read_sql().
+✅ 10. Monitorar pasta e processar arquivos novos automaticamente
+Observar uma pasta (watchdog ou os) e sempre que um novo CSV for adicionado, o script:
+Lê
+Analisa
+Gera relatório automáticos
